@@ -1,3 +1,12 @@
+Evet, kesinlikle\! O yapıştırdığın kısım, geliştiricilerin projeyi kendi bilgisayarlarına kurabilmeleri için çok önemli olan teknik kısımdır.
+
+Ama parça parça eklemekle uğraşma. Kafan karışmasın diye **BAŞTAN SONA HER ŞEYİN İÇİNDE OLDUĞU (Görseller, Kurulum, Lisans vb.)** tek bir metin hazırladım.
+
+GitHub'daki `README.md` dosyanı aç, **içindeki her şeyi sil** ve aşağıdaki kodu **tek seferde** yapıştır.
+
+### 📋 Kopyalanacak TAM `README.md` Dosyası
+
+````markdown
 # 🎩 Farcaster FollowCheck Mini-App
 
 > A professional, mobile-optimized Farcaster Mini-App to instantly check who is not following you back. Built with Next.js 15, Neynar API, and Farcaster SDK.
@@ -28,4 +37,77 @@ After deploying, you **MUST** update the Manifest file to match your new Vercel 
 3. Change `const appUrl` to your new domain:
    ```typescript
    // Change this to YOUR Vercel URL
-   const appUrl = "[https://your-project-name.vercel.app](https://your-project-name.vercel.app)";
+   const appUrl = "[https://your-project-name.vercel.app](https://your-project-name.vercel.app)"; 
+````
+
+4.  Commit & Push.
+
+-----
+
+## 🛠️ Manual Installation (For Developers)
+
+If you want to run it locally or contribute:
+
+### 1\. Clone the Repository
+
+```bash
+git clone [https://github.com/coinisan/farcaster-follow-checker.git](https://github.com/coinisan/farcaster-follow-checker.git)
+cd farcaster-follow-checker
+```
+
+### 2\. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3\. Set Up Environment Variables
+
+Rename `.env.example` to `.env.local` and fill in your keys:
+
+```bash
+cp .env.example .env.local
+```
+
+**How to get keys:**
+
+  * **NEYNAR\_API\_KEY:** Go to [Neynar.com](https://neynar.com), sign up, and get an API Key from the dashboard. *Note: A "Starter" plan is recommended for fetching large follower lists.*
+  * **NEXT\_PUBLIC\_ONCHAINKIT\_API\_KEY:** Go to [Coinbase Developer Platform](https://portal.cdp.coinbase.com/), create a project, and copy the Client Key.
+
+### 4\. Run Locally
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:3000`.
+*Tip: Use the "Demo Mode" button to test the UI without a Farcaster connection.*
+
+-----
+
+## 📱 How to Validate & Share
+
+To make your app visible inside Farcaster (Warpcast):
+
+1.  Go to [Warpcast Frame Developer Tools](https://www.google.com/search?q=https://warpcast.com/~/developers/frames).
+2.  Enter your app URL (e.g., `https://your-app.vercel.app`).
+3.  Click **Validate**.
+4.  Once validated, you can share the link in a cast, and it will appear as a Mini-App\!
+
+-----
+
+## 📂 Project Structure
+
+  - `/app/page.tsx` -\> Main UI & Logic (Client Side).
+  - `/app/api/unfollowers/route.ts` -\> Backend logic (Fetches data from Neynar).
+  - `/app/.well-known/farcaster.json/route.ts` -\> Farcaster Manifest (Identity card of the app).
+
+## 🤝 Contributing
+
+Contributions are welcome\! Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+```
