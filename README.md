@@ -2,7 +2,7 @@
 
 > A simple, fast, and mobile-optimized Farcaster Mini-App to check who is not following you back. Built with Next.js, Neynar API, and Farcaster SDK.
 
-![Project Preview](public/logo.png)
+![Project Preview](https://farcaster.xyz/miniapps/qgVJ4mXPMFlR/followcheck)
 
 ## ✨ Features
 
