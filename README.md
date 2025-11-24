@@ -1,12 +1,3 @@
-Evet, kesinlikle\! O yapıştırdığın kısım, geliştiricilerin projeyi kendi bilgisayarlarına kurabilmeleri için çok önemli olan teknik kısımdır.
-
-Ama parça parça eklemekle uğraşma. Kafan karışmasın diye **BAŞTAN SONA HER ŞEYİN İÇİNDE OLDUĞU (Görseller, Kurulum, Lisans vb.)** tek bir metin hazırladım.
-
-GitHub'daki `README.md` dosyanı aç, **içindeki her şeyi sil** ve aşağıdaki kodu **tek seferde** yapıştır.
-
-### 📋 Kopyalanacak TAM `README.md` Dosyası
-
-````markdown
 # 🎩 Farcaster FollowCheck Mini-App
 
 > A professional, mobile-optimized Farcaster Mini-App to instantly check who is not following you back. Built with Next.js 15, Neynar API, and Farcaster SDK.
