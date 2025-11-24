@@ -4,7 +4,7 @@
 
 ![App Preview](public/logo.png)
 
-## ✨ Features
+ Features
 
 - **🔒 Instant Auth:** Automatically detects Farcaster user via SDK Context (SIWN).
 - **🚀 Smart Analysis:** Scans thousands of followers using Neynar API pagination (handles large accounts easily).
@@ -14,7 +14,7 @@
 
 ---
 
-## ⚡ Quick Start (Deploy in 2 Minutes)
+ Quick Start (Deploy in 2 Minutes)
 
 You can deploy your own version of this app to Vercel with one click:
 
@@ -31,11 +31,12 @@ After deploying, you **MUST** update the Manifest file to match your new Vercel 
    const appUrl = "[https://your-project-name.vercel.app](https://your-project-name.vercel.app)"; 
 ````
 
+
 4.  Commit & Push.
 
 -----
 
- 🛠️ Manual Installation (For Developers)
+ Manual Installation (For Developers)
 
 If you want to run it locally or contribute:
 
@@ -76,7 +77,7 @@ Open `http://localhost:3000`.
 
 -----
 
-📱 How to Validate & Share
+ How to Validate & Share
 
 To make your app visible inside Farcaster (Warpcast):
 
@@ -87,17 +88,17 @@ To make your app visible inside Farcaster (Warpcast):
 
 -----
 
- 📂 Project Structure
+ Project Structure
 
   - `/app/page.tsx` -\> Main UI & Logic (Client Side).
   - `/app/api/unfollowers/route.ts` -\> Backend logic (Fetches data from Neynar).
   - `/app/.well-known/farcaster.json/route.ts` -\> Farcaster Manifest (Identity card of the app).
 
-🤝 Contributing
+Contributing
 
 Contributions are welcome\! Feel free to open an issue or submit a pull request.
 
- 📄 License
+ License
 
 This project is licensed under the MIT License.
 
