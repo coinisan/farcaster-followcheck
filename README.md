@@ -38,17 +38,17 @@ If you want to run it locally or contribute:
 
 1. Clone the Repository
 Bash
-git clone [https://github.com/coinisan/farcaster-follow-checker.git](https://github.com/coinisan/farcaster-follow-checker.git)
+```git clone [https://github.com/coinisan/farcaster-follow-checker.git](https://github.com/coinisan/farcaster-follow-checker.git)```
 cd farcaster-follow-checker
 
 2. Install Dependencies
 Bash
-npm install
+```npm install```
 
 3. Set Up Environment Variables
 Rename .env.example to .env.local and fill in your keys:
 Bash
-cp .env.example .env.local
+```cp .env.example .env.local```
 -
 How to get keys:
 NEYNAR_API_KEY: Go to Neynar.com, sign up, and get an API Key from the dashboard. Note: A "Starter" plan is recommended for fetching large follower lists.
@@ -56,7 +56,7 @@ NEXT_PUBLIC_ONCHAINKIT_API_KEY: Go to Coinbase Developer Platform, create a proj
 
 4. Run Locally
 Bash
-npm run dev
+```npm run dev```
 Open http://localhost:3000. Tip: Use the "Demo Mode" button to test the UI without a Farcaster connection.
 
 
