@@ -1,16 +1,16 @@
-🎩 Farcaster FollowCheck Mini-App
+ Farcaster FollowCheck Mini-App
 
 > A professional, mobile-optimized Farcaster Mini-App to instantly check who is not following you back. Built with Next.js 15, Neynar API, and Farcaster SDK.
 
-![App Preview](public/logo.png)
+App Preview:https://farcaster.xyz/miniapps/qgVJ4mXPMFlR/followcheck
 
  Features
 
-- **🔒 Instant Auth:** Automatically detects Farcaster user via SDK Context (SIWN).
-- **🚀 Smart Analysis:** Scans thousands of followers using Neynar API pagination (handles large accounts easily).
-- **📱 Mobile Native:** Uses deep links (`sdk.actions.openUrl`) to open profiles directly inside Warpcast.
-- **🎨 Premium UI:** Glassmorphism design, smooth animations, and dark mode.
-- **🛡️ Secure:** No wallet signature required for basic checks.
+-  Instant Auth:** Automatically detects Farcaster user via SDK Context (SIWN).
+-  Smart Analysis:** Scans thousands of followers using Neynar API pagination (handles large accounts easily).
+-  Mobile Native:** Uses deep links (`sdk.actions.openUrl`) to open profiles directly inside Warpcast.
+-  Premium UI:** Glassmorphism design, smooth animations, and dark mode.
+-  Secure:** No wallet signature required for basic checks.
 
 ---
 
