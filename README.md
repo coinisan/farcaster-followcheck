@@ -1,12 +1,4 @@
-Gördüm, Coinisan. Sorun şu: **Kopyala-yapıştır yaparken satır boşlukları ve özel karakterler (Markdown formatı) kaybolmuş.**
 
-GitHub'ın bunu "Kod" ve "Başlık" olarak algılaması için **boşluklar ve satır araları çok önemlidir.** Şu an hepsi düz yazı gibi yapışmış, o yüzden yıldızlar (`**`) ve kod kutuları (` ``` `) çalışmıyor.
-
-Bunu düzeltmek için GitHub'daki **Edit (Kalem)** ekranındaki **HER ŞEYİ SİL** ve aşağıdaki kutunun içindeki yazıyı **"RAW" (Ham)** haliyle kopyalayıp yapıştır.
-
-### 📋 `README.md` İçin Doğru Kod (Kopyala)
-
-````markdown
 # 🎩 Farcaster FollowCheck Mini-App
 
 > A professional, mobile-optimized Farcaster Mini-App to instantly check who is not following you back. Built with Next.js 15, Neynar API, and Farcaster SDK.
