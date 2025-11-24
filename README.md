@@ -6,11 +6,11 @@
 
  Features
 
-- **🔒 Instant Auth:** Automatically detects Farcaster user via SDK Context (SIWN).
-- **🚀 Smart Analysis:** Scans thousands of followers using Neynar API pagination (handles large accounts easily).
-- **📱 Mobile Native:** Uses deep links (`sdk.actions.openUrl`) to open profiles directly inside Warpcast.
-- **🎨 Premium UI:** Glassmorphism design, smooth animations, and dark mode.
-- **🛡️ Secure:** No wallet signature required for basic checks.
+Instant Auth:** Automatically detects Farcaster user via SDK Context (SIWN).
+Smart Analysis:** Scans thousands of followers using Neynar API pagination (handles large accounts easily).
+ Mobile Native:** Uses deep links (`sdk.actions.openUrl`) to open profiles directly inside Warpcast.
+Premium UI:** Glassmorphism design, smooth animations, and dark mode.
+ Secure:** No wallet signature required for basic checks.
 
 ---
 
