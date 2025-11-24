@@ -31,53 +31,52 @@ After deploying, you **MUST** update the Manifest file to match your new Vercel 
    const appUrl = "[https://your-project-name.vercel.app](https://your-project-name.vercel.app)"; 
 ````
 
-
 4.  Commit & Push.
 
------
 
- Manual Installation (For Developers)
+
+⚒️Manual Installation (For Developers)
 
 If you want to run it locally or contribute:
 
  1\. Clone the Repository
 
-```bash
+bash
 git clone [https://github.com/coinisan/farcaster-follow-checker.git](https://github.com/coinisan/farcaster-follow-checker.git)
 cd farcaster-follow-checker
-```
 
- 2\. Install Dependencies
 
-`bash
+2\.Install Dependencies
+
+bash
 npm install
-`
 
- 3\. Set Up Environment Variables
+
+3\. Set Up Environment Variables
 
 Rename `.env.example` to `.env.local` and fill in your keys:
 
-`bash
+bash
 cp .env.example .env.local
-`
 
-**How to get keys:**
 
-  * **NEYNAR\_API\_KEY:** Go to [Neynar.com](https://neynar.com), sign up, and get an API Key from the dashboard. *Note: A "Starter" plan is recommended for fetching large follower lists.*
-  * **NEXT\_PUBLIC\_ONCHAINKIT\_API\_KEY:** Go to [Coinbase Developer Platform](https://portal.cdp.coinbase.com/), create a project, and copy the Client Key.
+How to get keys:
+
+  * NEYNAR\_API\_KEY:** Go to [Neynar.com](https://neynar.com), sign up, and get an API Key from the dashboard. *Note: A "Starter" plan is recommended for fetching large follower lists.*
+  * NEXT\_PUBLIC\_ONCHAINKIT\_API\_KEY:** Go to [Coinbase Developer Platform](https://portal.cdp.coinbase.com/), create a project, and copy the Client Key.
 
  4\. Run Locally
 
-`bash
+bash
 npm run dev
-`
+
 
 Open `http://localhost:3000`.
-*Tip: Use the "Demo Mode" button to test the UI without a Farcaster connection.*
+Tip: Use the "Demo Mode" button to test the UI without a Farcaster connection.*
 
------
 
- How to Validate & Share
+
+How to Validate & Share
 
 To make your app visible inside Farcaster (Warpcast):
 
@@ -86,13 +85,12 @@ To make your app visible inside Farcaster (Warpcast):
 3.  Click **Validate**.
 4.  Once validated, you can share the link in a cast, and it will appear as a Mini-App\!
 
------
 
  Project Structure
 
-  - `/app/page.tsx` -\> Main UI & Logic (Client Side).
-  - `/app/api/unfollowers/route.ts` -\> Backend logic (Fetches data from Neynar).
-  - `/app/.well-known/farcaster.json/route.ts` -\> Farcaster Manifest (Identity card of the app).
+  /app/page.tsx` -\> Main UI & Logic (Client Side).
+  /app/api/unfollowers/route.ts` -\> Backend logic (Fetches data from Neynar).
+  /app/.well-known/farcaster.json/route.ts` -\> Farcaster Manifest (Identity card of the app).
 
 Contributing
 
@@ -101,5 +99,3 @@ Contributions are welcome\! Feel free to open an issue or submit a pull request.
  License
 
 This project is licensed under the MIT License.
-
-```
